@@ -1,0 +1,89 @@
+:root {
+  font-family: 'Onest', sans-serif;
+  font-weight: 500;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(0, 0, 0) 20%,
+    rgba(0, 134, 255, 1) 80%
+  );
+
+  color: #f8f8f8;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.aboutMe {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  box-shadow: 0px 1px 80px rgb(0, 45, 247);
+  outline: #020202 solid 3px;
+}
+
+.textp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 25vw;
+  color: #020202;
+  padding: 0.5vw;
+  font-size: 1.3vw;
+}
+/* ////////////////////  keyframe///// */
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* 
+///////////////////////  IMG ///// */
+
+.imgDev {
+  width: 35vw;
+  max-width: 40vw;
+
+  margin-left: 28%;
+}
+
+
+
+
+
+
+
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(0, 0, 0);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-image: linear-gradient(
+    -50deg,
+    #020202 35%,
+    #00000000 50%,
+    #ffffff00 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  pointer-events: none;
+  background-color: #ffffff00;
+
+  animation: textclip 4s forwards infinite 20s;
+
+  padding: 0.5vw;
+  font-size: 1.3vw; */

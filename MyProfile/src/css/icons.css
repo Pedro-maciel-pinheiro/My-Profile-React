@@ -1,0 +1,59 @@
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  gap: 40px;
+  padding: 1.4vw;
+  font-size: 1.5vw;
+  
+}
+
+.iconp{
+  font-size: 0.7dvw;
+  color: black;
+  font-weight: 600;
+  
+}
+
+#html {
+  color: rgb(255, 17, 0);
+  transition: 0.5s;
+}
+
+#css {
+  color: rgb(0, 119, 255);
+  transition: 0.5s;
+}
+
+#js {
+  color: rgb(255, 188, 5);
+  transition: 0.5s;
+}
+#react {
+  font-size: 1.7vw;
+  color: #61dafb;
+  will-change: filter;
+  transition: 0.5s;
+ 
+}
+
+#html:hover {
+  transform: scale(1.2);
+}
+
+#css:hover {
+  transform: scale(1.2);
+}
+
+#js:hover {
+  transform: scale(1.2);
+}
+
+#react:hover {
+  
+  transform: scale(1.2);
+}
+
+
